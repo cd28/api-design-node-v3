@@ -24,20 +24,20 @@ This course has two parts, slides and excercises. The slides describe the exceri
 * branch - `lesson-1`
 
 In this lesson you'll be creating a simple Express based API in node, just to get your feet wet.
-- [ ] install dependencies with yarn (prefered for version locking) or npm
-- [ ] create a route that sends back some json
-- [ ] create a route that accepts json and logs it
-- [ ] start the server
+- [x] install dependencies with yarn (prefered for version locking) or npm
+- [x] create a route that sends back some json
+- [x] create a route that accepts json and logs it
+- [x] start the server
 
 ### Routing
 * branch - `lesson-2`
 * test command - `yarn test-routes` or `npm run test-routes`
 
 This exercise will have you creating routes and sub routers for our soon the be DB resources using Express routing and routers
-- [ ] create a router for the Item resource
-- [ ] create full crud routes and create placeholder controllers
-- [ ] mount router on the root server
-- [ ] ensure all tests pass by running test command
+- [x] create a router for the Item resource
+- [x] create full crud routes and create placeholder controllers
+- [x] mount router on the root server
+- [x] ensure all tests pass by running test command
 
 ### Create Schemas
 * branch - `lesson-3`
@@ -45,11 +45,11 @@ This exercise will have you creating routes and sub routers for our soon the be 
 
 In this exercise, you'll be taking what you learned about Mongoose and MongoDb to create a schema and model for the Item resource.
 
-- [ ] create a schema for the item resource
-- [ ] add the correct fields (look at test)
-- [ ] add the correct validations (look at test)
-- [ ] *extra* add compund index to ensure all tasks in a list have unique names
-- [ ] ensure all tests pass by running test command
+- [x] create a schema for the item resource
+- [x] add the correct fields (look at test)
+- [x] add the correct validations (look at test)
+- [x] *extra* add compund index to ensure all tasks in a list have unique names
+- [x] ensure all tests pass by running test command
 
 ### Controllers
 * branch - `lesson-4`
@@ -57,9 +57,9 @@ In this exercise, you'll be taking what you learned about Mongoose and MongoDb t
 
 So far we have routes and models. Now we need to hook our routes up to our models so we can perfom CRUD on the models based on the routes + verbs. That's exactly what controllers do.
 
-- [ ] create CRUD resolvers in `utils/crud.js`
-- [ ] create controllers for the Item resources using the base crud resolvers
-- [ ] ensure all tests pass by running test command
+- [x] create CRUD resolvers in `utils/crud.js`
+- [x] create controllers for the Item resources using the base crud resolvers
+- [x] ensure all tests pass by running test command
 
 ### Authentication
 * branch - `lesson-5`
@@ -67,10 +67,10 @@ So far we have routes and models. Now we need to hook our routes up to our model
 
 In this exercise you'll be locking down our API using JWT's.
 
-- [ ] create a signup controller
-- [ ] create a signin controller
-- [ ] create a protect middlware to lock down API routes
-- [ ] ensure all tests pass by running test command
+- [x] create a signup controller
+- [x] create a signin controller
+- [x] create a protect middlware to lock down API routes
+- [x] ensure all tests pass by running test command
 
 ### Testing
 THe other resources don't have any test, go ahead and write some!
