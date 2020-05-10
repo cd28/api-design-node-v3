@@ -72,9 +72,9 @@ In this exercise, you'll be taking what you learned about Mongoose and MongoDb t
 
 So far we have routes and models. Now we need to hook our routes up to our models so we can perfom CRUD on the models based on the routes + verbs. That's exactly what controllers do.
 
-- [ ] create CRUD resolvers in `utils/crud.js`
-- [ ] create controllers for the Item resources using the base crud resolvers
-- [ ] ensure all tests pass by running test command
+- [x] create CRUD resolvers in `utils/crud.js`
+- [x] create controllers for the Item resources using the base crud resolvers
+- [x] ensure all tests pass by running test command
 
 ### Authentication
 * branch - `lesson-5`
